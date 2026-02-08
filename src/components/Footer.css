@@ -1,0 +1,33 @@
+
+.footer {
+    margin-top: 80px;
+    padding: 30px 20px;
+    text-align: center;
+    background: linear-gradient(180deg, #0f0f0f, #000);
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+  }
+  
+  .footer-text {
+    color: #aaa;
+    font-size: 14px;
+    margin-bottom: 14px;
+  }
+  
+  .footer-icons {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+  }
+  
+  .footer-icons a {
+    color: #00f0ff;
+    font-size: 28px;
+    transition: all 0.3s ease;
+  }
+  
+  .footer-icons a:hover {
+    color: #ffffff;
+    transform: translateY(-4px) scale(1.1);
+    text-shadow: 0 0 10px rgba(0, 240, 255, 0.9);
+  }
+  

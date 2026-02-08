@@ -1,44 +1,40 @@
 import { motion } from "framer-motion";
+import "./Skills.css";
 
-const Skills = () => (
-  <motion.section
-    id="skills"
-    initial={{ opacity: 0 }}
-    whileInView={{ opacity: 1 }}
-    transition={{ duration: 0.6 }}
-    viewport={{ once: true }}
-  >
-    <h2>Technical Skills</h2>
-
-    <motion.ul
-      initial="hidden"
-      whileInView="visible"
+const Skills = () => {
+  return (
+    <motion.div
+      className="skills"
+      initial={{ opacity: 0, y: 60 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.6, ease: "easeOut" }}
       viewport={{ once: true }}
-      variants={{
-        visible: {
-          transition: { staggerChildren: 0.12 }
-        }
-      }}
     >
-      {[
-        "Languages: C, C++, Python, Java, JavaScript, R",
-        "Frameworks: React, Node.js, Express.js, Spring Boot",
-        "AI/ML: LLMs, YOLO, SSD, EfficientNet, OpenAI, Gemini",
-        "Databases: MySQL, MongoDB",
-        "Tools: Git, Streamlit, OpenCV, Jupyter, Visual Studio"
-      ].map((skill, i) => (
-        <motion.li
-          key={i}
-          variants={{
-            hidden: { opacity: 0, y: 20 },
-            visible: { opacity: 1, y: 0 }
-          }}
-        >
-          {skill}
-        </motion.li>
-      ))}
-    </motion.ul>
-  </motion.section>
-);
+      <h2>Technical Skills</h2>
+
+      <div className="skills-grid">
+        <div>
+          <h4>Languages</h4>
+          <p>C/C++, Python, Java, JavaScript, R, HTML, CSS</p>
+        </div>
+
+        <div>
+          <h4>Frameworks</h4>
+          <p>React, Node.js, Express.js, Spring Boot, GenAI</p>
+        </div>
+
+        <div>
+          <h4>Databases</h4>
+          <p>MySQL, MongoDB</p>
+        </div>
+
+        <div>
+          <h4>Tools</h4>
+          <p>Git, Jupyter, Streamlit, OpenCV, TorchVision, VS Code</p>
+        </div>
+      </div>
+    </motion.div>
+  );
+};
 
 export default Skills;

@@ -1,0 +1,19 @@
+.contact {
+    padding: 120px 12%;
+    background: radial-gradient(circle, #001a1f, #000);
+    color: #fff;
+    text-align: center;
+  }
+  
+  .contact-btn {
+    display: inline-flex;
+    gap: 10px;
+    margin-top: 20px;
+    padding: 14px 26px;
+    border-radius: 30px;
+    background: #00f0ff;
+    color: #000;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  

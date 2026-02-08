@@ -1,0 +1,19 @@
+.achievements {
+    padding: 100px 12%;
+    background: #0a0a0a;
+    color: #fff;
+    text-align: center;
+  }
+  
+  .ach-card {
+    margin: 20px auto;
+    max-width: 500px;
+    padding: 18px;
+    border-radius: 14px;
+    background: rgba(255, 255, 255, 0.05);
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    justify-content: center;
+  }
+  

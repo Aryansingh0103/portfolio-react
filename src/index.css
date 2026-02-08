@@ -172,3 +172,6 @@ section p {
     padding: 80px 6%;
   }
 }
+html {
+  scroll-behavior: smooth;
+}
