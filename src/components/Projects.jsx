@@ -8,7 +8,7 @@ const projects = [
     description:
       "Built and deployed end-to-end Generative AI apps for text generation, summarization, classification, image synthesis, and code generation using LLMs.",
     tech: "Gemini, OpenAI, Groq, Hugging Face, Streamlit, FastAPI",
-    github: "https://github.com/aryansingh0103/gen-ai-projects",
+    github: "https://github.com/Aryansingh0103/GenAIProject",
   },
   {
     title: "Smart Traffic Management System",
@@ -22,7 +22,7 @@ const projects = [
     description:
       "YOLO-based traffic object detection with dynamic signal optimization for reduced congestion.",
     tech: "YOLO, TensorFlow, OpenCV, Python",
-    github: "https://github.com/Aryansingh0103/Adaptive-Traffic-Signal",
+    github: "https://github.com/Aryansingh0103/Adaptive-Traffic-Signal-Control-System-master",
   },
 ];
 
